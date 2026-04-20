@@ -1,0 +1,158 @@
+/* style.css (Salvar na pasta PROJETO) */
+
+/* =========================================
+   ESTILOS GERAIS DA PÁGINA
+========================================= */
+body { 
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    background-color: #eef2f5; 
+    padding: 20px; 
+    margin: 0;
+}
+
+.container { 
+    max-width: 1100px; 
+    margin: auto; 
+    background: #ffffff; 
+    padding: 25px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+}
+
+/* =========================================
+   CABEÇALHO E USUÁRIO LOGADO
+========================================= */
+.cabecalho-sistema { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-bottom: 2px solid #2b6cb0; 
+    margin-bottom: 20px; 
+    padding-bottom: 10px; 
+}
+
+.cabecalho-sistema h2 {
+    color: #1a365d;
+    margin: 0;
+}
+
+.usuario-info { 
+    color: #4a5568; 
+}
+
+.btn-sair { 
+    color: #e53e3e; 
+    text-decoration: none; 
+    font-weight: bold; 
+    margin-left: 10px; 
+}
+
+.btn-sair:hover {
+    text-decoration: underline;
+}
+
+/* =========================================
+   FORMULÁRIO DE CADASTRO/EDIÇÃO
+========================================= */
+.form-cadastro { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 15px; 
+    background: #f7fafc; 
+    padding: 20px; 
+    border-radius: 6px; 
+    margin-bottom: 25px; 
+    border: 1px solid #e2e8f0; 
+}
+
+.input-group { 
+    display: flex; 
+    flex-direction: column; 
+    flex: 1; 
+    min-width: 150px; 
+}
+
+.input-group label { 
+    font-size: 0.85em; 
+    font-weight: bold; 
+    color: #4a5568; 
+    margin-bottom: 5px; 
+}
+
+.input-group input { 
+    padding: 8px; 
+    border: 1px solid #cbd5e0; 
+    border-radius: 4px; 
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #3182ce;
+}
+
+.btn-salvar { 
+    background: #38a169; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    align-self: flex-end; 
+    height: 35px;
+}
+
+.btn-salvar:hover {
+    background: #2f855a;
+}
+
+/* =========================================
+   TABELA DE DADOS
+========================================= */
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+th { 
+    background: #1a365d; 
+    color: white; 
+    padding: 12px; 
+    text-align: left; 
+}
+
+td { 
+    padding: 12px; 
+    border-bottom: 1px solid #e2e8f0; 
+}
+
+tr:hover {
+    background-color: #f7fafc;
+}
+
+/* =========================================
+   BOTÕES DE AÇÃO (EDITAR E EXCLUIR)
+========================================= */
+.btn-acao { 
+    text-decoration: none; 
+    padding: 5px 8px; 
+    border-radius: 4px; 
+    color: white; 
+    font-size: 0.9em;
+}
+
+.btn-editar { 
+    background: #d69e2e; 
+}
+
+.btn-editar:hover {
+    background: #b7791f;
+}
+
+.btn-excluir { 
+    background: #e53e3e; 
+}
+
+.btn-excluir:hover {
+    background: #c53030;
+}   

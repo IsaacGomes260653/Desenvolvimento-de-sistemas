@@ -24,18 +24,6 @@ O projeto conta com um fluxo completo de autenticação e gerenciamento de dados
 
 ---
 
-## 📸 Demonstração Visual
-
-### 🔐 Tela de Login
-*Interface limpa com foco na segurança e feedback ao usuário.*
-> [ADICIONE AQUI O PRINT DA SUA TELA DE LOGIN]
-
-### 👨‍🎓 Painel Administrativo
-*Gestão centralizada com formulário responsivo e tabela de dados.*
-> [ADICIONE AQUI O PRINT DA SUA TELA DE ALUNOS]
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 As seguintes ferramentas foram usadas na construção do projeto:

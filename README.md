@@ -50,3 +50,22 @@ PROJETO/
 ├── sessao.php          # Verificação de segurança
 ├── style.css           # Estilização global
 └── logout.php          # Encerramento de sessão
+```
+
+---
+
+# 🎓 Student Management System (SGA) (English)
+
+> A complete academic control system built in PHP, focused on security, usability, and a modern interface.
+
+## 🌟 Features
+
+Secure login via PHP sessions with MD5-hashed passwords; intelligent error feedback with a "shake" animation on wrong password; full student CRUD (create, list, update with auto-filled forms, delete); a clean, professional "Corporate Blue" interface with FontAwesome icons.
+
+## 🛠️ Tech stack
+
+PHP 8.x, MySQL (via PDO), CSS3 (variables, Flexbox, keyframes), FontAwesome 6.4, Apache (XAMPP/WAMP).
+
+## 📂 Structure
+
+`aluno/` holds the student management module (listing, insert/update, delete logic); the project root has login, session, and database-connection scripts plus global styles.
